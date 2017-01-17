@@ -1,0 +1,119 @@
+/*
+Style Sheet
+
+This is used to create site-wide styles to keep the site design similar between pages.
+*/
+
+/* 
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+//
+// This section covers all of the base styles you can have at any device 
+// width.
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    height: 100%;
+}
+
+body {
+    background: #efefef;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+a:link, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 15px;
+    text-align: center;
+    width: 100%;
+}
+
+section.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    margin-bottom: -100px;
+}
+
+section h2, section p {
+    width: 70%;
+    margin: 0 auto 25px;
+}
+
+section h2 {
+    font-size: 48px;
+    line-height: 50px;
+}
+
+article {
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 3px;
+}
+
+article a {
+    background: #fff;
+    display: block;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+article h3 {
+    padding: 25px 0;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+footer, .clearfooter {
+    height: 100px;
+    clear: both;
+}
+
+/*
+// Responsive Styles
+// ==========================================================================
+//
+// This section checks the width of your device and loads different styles if
+// the device viewing the page is of a different width.
+*/
+
+/* iPad portrait orientation width and below */
+@media screen and (max-width: 768px) {
+    article {
+        width: 50%;
+    }
+}
