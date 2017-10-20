@@ -1,4 +1,4 @@
-# Four Image Landing Page
+# Four Image Landing Page Project Files
 This is a simple html and css boilerplate for students to learn linking between pages.
 
 You can download all of the required files by clicking the green "Clone or download" button above and selecting "Download ZIP".
